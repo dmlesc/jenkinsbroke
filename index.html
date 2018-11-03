@@ -1,0 +1,65 @@
+<html>
+<head>
+   <title>Jenkins Broken Jobs</title>
+   <script>
+      function init() {
+         getNonblue();
+      }
+      function getNonblue() {
+         var ajax = new XMLHttpRequest();
+         ajax.onreadystatechange=function() {
+            if (ajax.readyState==4 && ajax.status==200) {
+               var nonblue = JSON.parse(ajax.responseText);
+               var html = "<table><tr><th>Name</th><th>Time</th></tr>";
+               for (var i = 0; i < nonblue.length; i++) {
+                  var job = nonblue[i];
+                  var minutes = job.minutes % 60;
+                  var hours = Math.floor(job.minutes / 60);
+                  var time = hours + " hrs " + minutes + " min";
+                  html += createTableRow([job.name, time]);
+               }
+               html += "</table>";
+               getID("jobs").innerHTML = html;
+               getAlerted();
+            }
+         }
+         ajax.open("GET", "jenkinsbrokenjobs/nonblue.json", true);
+         ajax.send();
+      }
+      function getAlerted() {
+         var ajax = new XMLHttpRequest();
+         ajax.onreadystatechange=function() {
+            if (ajax.readyState==4 && ajax.status==200) {
+               var alerted = JSON.parse(ajax.responseText);
+               for (var i=0; i<alerted.length; i++) {
+                  var job = alerted[i];
+                  getID(job.name).style.color = "red";
+               }
+               setTimeout("getNonblue()",30000);
+            }
+         }
+         ajax.open("GET", "jenkinsbrokenjobs/alerted.json", true);
+         ajax.send();
+      }
+      function createTableRow(data) {
+         var html = "<tr id=\"" + data[0] + "\">";
+         for (var i = 0; i < data.length; i++)
+            html += "<td>" + data[i] + "</td>";
+         html += "</tr>";
+         return html;
+      }
+      function getID(id) { return document.getElementById(id); }
+   </script>
+   <style>
+      body {background-color:#252526;color:white;font-family:arial}
+      h2 {text-decoration:underline;color:#009bd5}
+      table {border-spacing:5px;background-color:#2D2D30;color:white;font-size:24}
+      th {background-color:#252526;text-align:left;padding:5px;border: 1px solid #3F3F46;}
+      th.app {background-color:#6D9C30;font-size:14}
+   </style>
+</head>
+<body onload="init()">
+   <a href="jenkinsbrokenjobs/jbjlog.txt"><table id="apphead"><th class="app">Jenkins Broken Jobs</th></table></a></br>
+   <div id="jobs"></div>
+</body>
+</html>

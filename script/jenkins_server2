@@ -1,0 +1,372 @@
+{
+	"assignedLabels": [{}
+	],
+	"mode": "NORMAL",
+	"nodeDescription": "the master Jenkins node",
+	"nodeName": "",
+	"numExecutors": 4,
+	"description": null,
+	"jobs": [{
+			"name": "_Get Source App Store Build Branch 54 Special",
+			"url": "http://jenkins_server2/job/_Get%20Source%20App%20Store%20Build%20Branch%2054%20Special/",
+			"color": "blue"
+		}, {
+			"name": "_Get Source App Store Build Branch FiddleBits",
+			"url": "http://jenkins_server2/job/_Get%20Source%20App%20Store%20Build%20Branch%20FiddleBits/",
+			"color": "blue"
+		}, {
+			"name": "Activity Archive Creator",
+			"url": "http://jenkins_server2/job/Activity%20Archive%20Creator/",
+			"color": "blue"
+		}, {
+			"name": "Automation IPA",
+			"url": "http://jenkins_server2/job/Automation%20IPA/",
+			"color": "blue"
+		}, {
+			"name": "Automation IPA 5",
+			"url": "http://jenkins_server2/job/Automation%20IPA%205/",
+			"color": "blue"
+		}, {
+			"name": "Build Imagine DLLs",
+			"url": "http://jenkins_server2/job/Build%20Imagine%20DLLs/",
+			"color": "blue"
+		}, {
+			"name": "Build Imagine DLLs 5",
+			"url": "http://jenkins_server2/job/Build%20Imagine%20DLLs%205/",
+			"color": "blue"
+		}, {
+			"name": "Build Metro Deployment MSI",
+			"url": "http://jenkins_server2/job/Build%20Metro%20Deployment%20MSI/",
+			"color": "disabled"
+		}, {
+			"name": "Clean",
+			"url": "http://jenkins_server2/job/Clean/",
+			"color": "blue"
+		}, {
+			"name": "Command Line Tests",
+			"url": "http://jenkins_server2/job/Command%20Line%20Tests/",
+			"color": "yellow_anime"
+		}, {
+			"name": "Common Media Creator",
+			"url": "http://jenkins_server2/job/Common%20Media%20Creator/",
+			"color": "red"
+		}, {
+			"name": "Copy Unity Tests",
+			"url": "http://jenkins_server2/job/Copy%20Unity%20Tests/",
+			"color": "blue"
+		}, {
+			"name": "DAM",
+			"url": "http://jenkins_server2/job/DAM/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Android Build",
+			"url": "http://jenkins_server2/job/Deploy%20Android%20Build/",
+			"color": "disabled"
+		}, {
+			"name": "Deploy Android Build 5",
+			"url": "http://jenkins_server2/job/Deploy%20Android%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Automation IPA",
+			"url": "http://jenkins_server2/job/Deploy%20Automation%20IPA/",
+			"color": "disabled"
+		}, {
+			"name": "Deploy Automation IPA 5",
+			"url": "http://jenkins_server2/job/Deploy%20Automation%20IPA%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Automation Test Webplayer",
+			"url": "http://jenkins_server2/job/Deploy%20Automation%20Test%20Webplayer/",
+			"color": "blue"
+		}, {
+			"name": "Deploy DAM",
+			"url": "http://jenkins_server2/job/Deploy%20DAM/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Enterprise IPA",
+			"url": "http://jenkins_server2/job/Deploy%20Enterprise%20IPA/",
+			"color": "disabled"
+		}, {
+			"name": "Deploy Enterprise IPA 5",
+			"url": "http://jenkins_server2/job/Deploy%20Enterprise%20IPA%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Español DAM",
+			"url": "http://jenkins_server2/job/Deploy%20Espa%C3%B1ol%20DAM/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Generated Metro Solution 5",
+			"url": "http://jenkins_server2/job/Deploy%20Generated%20Metro%20Solution%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy IMLFileList",
+			"url": "http://jenkins_server2/job/Deploy%20IMLFileList/",
+			"color": "blue"
+		}, {
+			"name": "Deploy IMLFileList 5",
+			"url": "http://jenkins_server2/job/Deploy%20IMLFileList%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy iOS Build",
+			"url": "http://jenkins_server2/job/Deploy%20iOS%20Build/",
+			"color": "disabled"
+		}, {
+			"name": "Deploy iOS Build 5",
+			"url": "http://jenkins_server2/job/Deploy%20iOS%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy iOS Build 5 Release",
+			"url": "http://jenkins_server2/job/Deploy%20iOS%20Build%205%20Release/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Mac Standalone Build",
+			"url": "http://jenkins_server2/job/Deploy%20Mac%20Standalone%20Build/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Mac Standalone Build 5",
+			"url": "http://jenkins_server2/job/Deploy%20Mac%20Standalone%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Media List",
+			"url": "http://jenkins_server2/job/Deploy%20Media%20List/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Media List 5",
+			"url": "http://jenkins_server2/job/Deploy%20Media%20List%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Unity NaCL Build",
+			"url": "http://jenkins_server2/job/Deploy%20Unity%20NaCL%20Build/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Webplayer Build",
+			"url": "http://jenkins_server2/job/Deploy%20Webplayer%20Build/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Webplayer Build 5",
+			"url": "http://jenkins_server2/job/Deploy%20Webplayer%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Windows Standalone Build",
+			"url": "http://jenkins_server2/job/Deploy%20Windows%20Standalone%20Build/",
+			"color": "blue"
+		}, {
+			"name": "Deploy Windows Standalone Build 5",
+			"url": "http://jenkins_server2/job/Deploy%20Windows%20Standalone%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Enterprise IPA",
+			"url": "http://jenkins_server2/job/Enterprise%20IPA/",
+			"color": "red"
+		}, {
+			"name": "Enterprise IPA 5",
+			"url": "http://jenkins_server2/job/Enterprise%20IPA%205/",
+			"color": "blue"
+		}, {
+			"name": "Generate Activity Documentation",
+			"url": "http://jenkins_server2/job/Generate%20Activity%20Documentation/",
+			"color": "yellow"
+		}, {
+			"name": "Generate Activity Documentation 5",
+			"url": "http://jenkins_server2/job/Generate%20Activity%20Documentation%205/",
+			"color": "blue"
+		}, {
+			"name": "Generate Designer Component Documentation",
+			"url": "http://jenkins_server2/job/Generate%20Designer%20Component%20Documentation/",
+			"color": "blue"
+		}, {
+			"name": "Get Source App Store Build Branch",
+			"url": "http://jenkins_server2/job/Get%20Source%20App%20Store%20Build%20Branch/",
+			"color": "blue"
+		}, {
+			"name": "Get Source App Store Build Branch 5",
+			"url": "http://jenkins_server2/job/Get%20Source%20App%20Store%20Build%20Branch%205/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Source",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Source/",
+			"color": "disabled"
+		}, {
+			"name": "Get Unity Source 5",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Source%205/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Source 5 Branch",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Source%205%20Branch/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Spanish Source",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Spanish%20Source/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Spanish Source 5",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Spanish%20Source%205/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Spanish Source_CI",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Spanish%20Source_CI/",
+			"color": "blue"
+		}, {
+			"name": "Get Unity Spanish Source_CI 5",
+			"url": "http://jenkins_server2/job/Get%20Unity%20Spanish%20Source_CI%205/",
+			"color": "blue"
+		}, {
+			"name": "imagine_winstore",
+			"url": "http://jenkins_server2/job/imagine_winstore/",
+			"color": "blue"
+		}, {
+			"name": "Integration Tests",
+			"url": "http://jenkins_server2/job/Integration%20Tests/",
+			"color": "red"
+		}, {
+			"name": "Media List Creator",
+			"url": "http://jenkins_server2/job/Media%20List%20Creator/",
+			"color": "blue"
+		}, {
+			"name": "Promote Website and Web Player to Production",
+			"url": "http://jenkins_server2/job/Promote%20Website%20and%20Web%20Player%20to%20Production/",
+			"color": "blue"
+		}, {
+			"name": "Promote Windows Standalone Build to CDN",
+			"url": "http://jenkins_server2/job/Promote%20Windows%20Standalone%20Build%20to%20CDN/",
+			"color": "blue"
+		}, {
+			"name": "Publish Unity Client to Test Cloud",
+			"url": "http://jenkins_server2/job/Publish%20Unity%20Client%20to%20Test%20Cloud/",
+			"color": "blue"
+		}, {
+			"name": "Relexile Get Source",
+			"url": "http://jenkins_server2/job/Relexile%20Get%20Source/",
+			"color": "blue"
+		}, {
+			"name": "Reports",
+			"url": "http://jenkins_server2/job/Reports/",
+			"color": "blue"
+		}, {
+			"name": "RetalliationTestBuild",
+			"url": "http://jenkins_server2/job/RetalliationTestBuild/",
+			"color": "blue"
+		}, {
+			"name": "Run Unity Unit Tests",
+			"url": "http://jenkins_server2/job/Run%20Unity%20Unit%20Tests/",
+			"color": "red"
+		}, {
+			"name": "Run Unity Unit Tests 5",
+			"url": "http://jenkins_server2/job/Run%20Unity%20Unit%20Tests%205/",
+			"color": "blue"
+		}, {
+			"name": "Send Build Email Notification",
+			"url": "http://jenkins_server2/job/Send%20Build%20Email%20Notification/",
+			"color": "blue"
+		}, {
+			"name": "shellscripttest",
+			"url": "http://jenkins_server2/job/shellscripttest/",
+			"color": "red"
+		}, {
+			"name": "test_imagine_winstore",
+			"url": "http://jenkins_server2/job/test_imagine_winstore/",
+			"color": "notbuilt"
+		}, {
+			"name": "UltimateSquasher",
+			"url": "http://jenkins_server2/job/UltimateSquasher/",
+			"color": "blue"
+		}, {
+			"name": "Unity Android Build",
+			"url": "http://jenkins_server2/job/Unity%20Android%20Build/",
+			"color": "red"
+		}, {
+			"name": "Unity Android Build 5",
+			"url": "http://jenkins_server2/job/Unity%20Android%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Unity iOS Build",
+			"url": "http://jenkins_server2/job/Unity%20iOS%20Build/",
+			"color": "red"
+		}, {
+			"name": "Unity iOS Build 5",
+			"url": "http://jenkins_server2/job/Unity%20iOS%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Unity iOS Build 5 Release",
+			"url": "http://jenkins_server2/job/Unity%20iOS%20Build%205%20Release/",
+			"color": "blue"
+		}, {
+			"name": "Unity Mac Standalone Build",
+			"url": "http://jenkins_server2/job/Unity%20Mac%20Standalone%20Build/",
+			"color": "red"
+		}, {
+			"name": "Unity Mac Standalone Build 5",
+			"url": "http://jenkins_server2/job/Unity%20Mac%20Standalone%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Unity Mac Standalone Build 5 Shared Cache",
+			"url": "http://jenkins_server2/job/Unity%20Mac%20Standalone%20Build%205%20Shared%20Cache/",
+			"color": "blue"
+		}, {
+			"name": "Unity Metro Build",
+			"url": "http://jenkins_server2/job/Unity%20Metro%20Build/",
+			"color": "red"
+		}, {
+			"name": "Unity Metro Build 5",
+			"url": "http://jenkins_server2/job/Unity%20Metro%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Unity NaCL",
+			"url": "http://jenkins_server2/job/Unity%20NaCL/",
+			"color": "blue"
+		}, {
+			"name": "Unity WebPlayer",
+			"url": "http://jenkins_server2/job/Unity%20WebPlayer/",
+			"color": "red"
+		}, {
+			"name": "Unity WebPlayer 5",
+			"url": "http://jenkins_server2/job/Unity%20WebPlayer%205/",
+			"color": "blue"
+		}, {
+			"name": "Unity Windows Standalone Build",
+			"url": "http://jenkins_server2/job/Unity%20Windows%20Standalone%20Build/",
+			"color": "red"
+		}, {
+			"name": "Unity Windows Standalone Build 5",
+			"url": "http://jenkins_server2/job/Unity%20Windows%20Standalone%20Build%205/",
+			"color": "blue"
+		}, {
+			"name": "Website",
+			"url": "http://jenkins_server2/job/Website/",
+			"color": "aborted"
+		}
+	],
+	"overallLoad": {},
+	"primaryView": {
+		"name": "All",
+		"url": "http://jenkins_server2/"
+	},
+	"quietingDown": false,
+	"slaveAgentPort": 0,
+	"unlabeledLoad": {},
+	"useCrumbs": false,
+	"useSecurity": true,
+	"views": [{
+			"name": "All",
+			"url": "http://jenkins_server2/"
+		}, {
+			"name": "Compression",
+			"url": "http://jenkins_server2/view/Compression/"
+		}, {
+			"name": "DAM",
+			"url": "http://jenkins_server2/view/DAM/"
+		}, {
+			"name": "Portal",
+			"url": "http://jenkins_server2/view/Portal/"
+		}, {
+			"name": "Unity 4",
+			"url": "http://jenkins_server2/view/Unity%204/"
+		}, {
+			"name": "Unity 5",
+			"url": "http://jenkins_server2/view/Unity%205/"
+		}, {
+			"name": "Website",
+			"url": "http://jenkins_server2/view/Website/"
+		}
+	]
+}

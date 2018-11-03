@@ -1,0 +1,2 @@
+2015-01-17 02:19:24 - jenkins job 1 - red
+2015-01-17 02:19:24 - jenkins job 2 - aborted

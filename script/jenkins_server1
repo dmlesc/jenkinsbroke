@@ -1,0 +1,118 @@
+{
+	"assignedLabels": [{}
+	],
+	"mode": "NORMAL",
+	"nodeDescription": "the master Jenkins node",
+	"nodeName": "",
+	"numExecutors": 5,
+	"description": null,
+	"jobs": [{
+			"name": "Cloud API Common NuGet Async packages",
+			"url": "http://jenkins_server1/job/Cloud%20API%20Common%20NuGet%20Async%20packages/",
+			"color": "disabled"
+		}, {
+			"name": "Cloud API Common NuGet packages",
+			"url": "http://jenkins_server1/job/Cloud%20API%20Common%20NuGet%20packages/",
+			"color": "blue"
+		}, {
+			"name": "Cloud Data Manager",
+			"url": "http://jenkins_server1/job/Cloud%20Data%20Manager/",
+			"color": "blue"
+		}, {
+			"name": "Cloud Import NuGet Packages",
+			"url": "http://jenkins_server1/job/Cloud%20Import%20NuGet%20Packages/",
+			"color": "blue"
+		}, {
+			"name": "Coil",
+			"url": "http://jenkins_server1/job/Coil/",
+			"color": "blue"
+		}, {
+			"name": "Common NuGet packages",
+			"url": "http://jenkins_server1/job/Common%20NuGet%20packages/",
+			"color": "blue"
+		}, {
+			"name": "Helix",
+			"url": "http://jenkins_server1/job/Helix/",
+			"color": "blue"
+		}, {
+			"name": "Imagine Learning Launcher",
+			"url": "http://jenkins_server1/job/Imagine%20Learning%20Launcher/",
+			"color": "blue"
+		}, {
+			"name": "Imagine Learning Launcher English",
+			"url": "http://jenkins_server1/job/Imagine%20Learning%20Launcher%20English/",
+			"color": "blue"
+		}, {
+			"name": "Imagine Learning Launcher Spanish",
+			"url": "http://jenkins_server1/job/Imagine%20Learning%20Launcher%20Spanish/",
+			"color": "blue"
+		}, {
+			"name": "List Students for License Count",
+			"url": "http://jenkins_server1/job/List%20Students%20for%20License%20Count/",
+			"color": "blue"
+		}, {
+			"name": "Merge",
+			"url": "http://jenkins_server1/job/Merge/",
+			"color": "red"
+		}, {
+			"name": "Product Revision Admin",
+			"url": "http://jenkins_server1/job/Product%20Revision%20Admin/",
+			"color": "blue"
+		}, {
+			"name": "Release",
+			"url": "http://jenkins_server1/job/Release/"
+		}, {
+			"name": "Reset Demo environment",
+			"url": "http://jenkins_server1/job/Reset%20Demo%20environment/",
+			"color": "blue"
+		}, {
+			"name": "Sequence Build",
+			"url": "http://jenkins_server1/job/Sequence%20Build/",
+			"color": "blue"
+		}, {
+			"name": "Spring",
+			"url": "http://jenkins_server1/job/Spring/",
+			"color": "blue"
+		}, {
+			"name": "StudentDocRestore",
+			"url": "http://jenkins_server1/job/StudentDocRestore/",
+			"color": "blue"
+		}, {
+			"name": "Test",
+			"url": "http://jenkins_server1/job/Test/"
+		}
+	],
+	"overallLoad": {},
+	"primaryView": {
+		"name": "All",
+		"url": "http://jenkins_server1/"
+	},
+	"quietingDown": false,
+	"slaveAgentPort": 0,
+	"unlabeledLoad": {},
+	"useCrumbs": false,
+	"useSecurity": true,
+	"views": [{
+			"name": "All",
+			"url": "http://jenkins_server1/"
+		}, {
+			"name": "Common",
+			"url": "http://jenkins_server1/view/Common/"
+		}, {
+			"name": "ILL",
+			"url": "http://jenkins_server1/view/ILL/"
+		}, {
+			"name": "Portal (Frontend)",
+			"url": "http://jenkins_server1/view/Portal%20(Frontend)/"
+		}, {
+			"name": "Release API",
+			"url": "http://jenkins_server1/view/Release%20API/"
+		}, {
+			"name": "Sequencer Tools",
+			"url": "http://jenkins_server1/view/Sequencer%20Tools/"
+		}, {
+			"name": "Test API",
+			"url": "http://jenkins_server1/view/Test%20API/"
+		}
+	]
+}
